@@ -12,6 +12,7 @@ public class Gugudan {
 		Scanner sc = new Scanner(System.in);
 		int i=sc.nextInt();
 		printDan(i);
+		printDan(i);
 
 	}
 
