@@ -15,20 +15,18 @@ public class Gugudan {
 
 		int i=sc.nextInt();
 
-		int i ;
-		printDan();
+		printDan(i);
 
 	}
 
-	public static void printDan() {
-		print();
+	public static void printDan(int i) {
+		print(i);
 	}
 
-	public static void print() {
-		for (int i = 1; i < 9; i++) {
-			int j;
-			int i1 = k * j;
-			System.out.println(i1 + " x" + j + " =" + k);
+	public static void print(int i) {
+		for (int j = 1; j < 9; j++) {
+			int k= i * j;
+			System.out.println(i + " x" + j + " =" + k);
 		}
 	}
 }
